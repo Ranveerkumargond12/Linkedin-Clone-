@@ -1,0 +1,198 @@
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>LinkedIn</title>
+</head>
+
+<body class="bg-slate-200 border-r-2 border-indigo-900">
+    <nav class="bg-white pb-2 px-5 flex sticky top-0">
+        <div class="flex m-auto">
+            <div class="bg-blue-700 w-9 h-9 m-2 font-bold text-3xl rounded-md text-center text-white">in</div>
+            <!-- <div class="w-auto h-5 xl:h-auto md:p-2 mt-2 mx-3text-xl  xl:text-4xl rounded-md text-center lg:bg-slate-400 hover:text-black m-auto text-gray-500 flex"><i class="fa fa-search" class="block md:hidden"></i><span class="hidden sm:block lg:hidden text-[10px]"> <br>Search</span><span class="text-[10px] hidden lg:block font-mono "><input class="placeholder:italic placeholder:text-slate-400 block py-2 pl-9 shadow-sm focus:outline-none bg-transparent focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search for anything..." type="text" name="search"/></span></div> -->
+            <div
+                class="w-auto h-5 mt-2 mx-3 font-bold text-lg rounded-md text-center hover:text-black flex text-gray-500 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">
+                <i class="fa fa-search mt-2"></i><span class="text-[10px]  hidden md:block font-mono"><input
+                        class="placeholder:italic placeholder:text-slate-400 w-full lg:w-auto block py-2 pl-9 shadow-sm focus:outline-none bg-transparent focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
+                        placeholder="Search" type="text" name="search" /></span>
+            </div>
+            <div
+                class="w-auto h-5 mt-2 mx-3 cursor-pointer font-bold text-lg rounded-md text-center hover:text-black text-gray-500">
+                <i class="fa fa-home"></i><br><span class="text-[10px] hidden md:block font-mono">Home</span></div>
+            <div
+                class="w-auto h-5 mt-2 mx-3 cursor-pointer font-bold text-lg rounded-md text-center hover:text-black text-gray-500">
+                <i class="fa fa-group"></i><br><span class="text-[10px] hidden md:block font-mono">My Network</span>
+            </div>
+            <div class="w-auto h-5 mt-2 mx-3 font-bold text-lg rounded-md text-center hover:text-black text-gray-500"><i
+                    class="fa fa-suitcase"></i><br><span class="text-[10px] hidden md:block font-mono">Jobs</span></div>
+            <div
+                class="w-auto h-5 mt-2 mx-3 cursor-pointer font-bold text-lg rounded-md text-center hover:text-black text-gray-500">
+                <i class="far fa-comment-dots"></i><br><span
+                    class="text-[10px] hidden md:block font-mono">Messaging</span></div>
+            <div
+                class="w-auto h-5 mt-2 mx-3 cursor-pointer font-bold text-lg rounded-md text-center hover:text-black text-gray-500">
+                <i class="fa fa-bell"></i><br><span class="text-[10px] hidden md:block font-mono">Notification</span>
+            </div>
+            <div
+                class="w-auto h-5 mt-2 mx-3 cursor-pointer font-bold text-lg rounded-md text-center hover:text-black text-gray-500">
+                <i><img class="w-7 rounded-full mx-auto"
+                        src="https://media.licdn.com/dms/image/D5635AQFQcZK0lmlNZg/profile-framedphoto-shrink_100_100/0/1690020320562?e=1703527200&v=beta&t=smcKngtMo5hcV5Q0L3J4xfx3QuCy33BvptAw0K_GT9Q"
+                        alt=""></i><span class="text-[10px] hidden md:block font-mono">Me <i
+                        class="fa fa-sort-desc"></i></span>
+            </div>
+            <div
+                class="w-auto h-5 mt-[-5px] md:mt-2  mx-3 cursor-pointer font-bold text-xl rounded-md text-center hover:text-black text-gray-500 ">
+                <span class="text-3xl md:hidden font-bold">...</span> <span class="hidden md:block"> <i
+                        class="fa fa-ellipsis-v mx-[1px]"></i><i class="fa fa-ellipsis-v mx-[1px]"></i><i
+                        class="fa fa-ellipsis-v mx-[1px]"></i></span><span
+                    class="text-[10px] hidden md:block font-mono">For Business <i class="fa fa-sort-desc"></i></span>
+            </div>
+            <div
+                class="w-auto h-5 mt-[-5px] md:mt-2  mx-3  font-bold text-xl rounded-md text-center hover:text-black text-gray-500 ">
+                <span class="text-[8px] xl:text-lg hidden md:block font-mono"></i><a href="#">Get Premium for
+                        free</a></span></span>
+            </div>
+        </div>
+
+
+    </nav>
+    <header class="mt-3 text-center sm:flex place-content-center">
+        <div class="bg-white  h-[267px] sm:h-[800px] inline-block rounded-lg  m-2 overflow-hidden">
+
+            <div class="w-auto md:max-w-md h-auto  bg-slate-400"><img class="" src="img/Limkedin dp.jpeg" alt=""></div>
+            <div class="w-20 h-20 m-auto mt-2 bg-slate-400 rounded-full overflow-hidden">
+                <img src="https://media.licdn.com/dms/image/D5635AQFQcZK0lmlNZg/profile-framedphoto-shrink_100_100/0/1690020320562?e=1703527200&v=beta&t=smcKngtMo5hcV5Q0L3J4xfx3QuCy33BvptAw0K_GT9Q"
+                    alt="">
+            </div>
+            <div class="text-lg cursor-pointer font-bold">Ranveer Kumar Gond</div>
+            <div class="text-sm cursor-pointer mb-3 text-gray-400 font-light">Attended MMIT Gorakhpur (U.P)</div>
+            <hr>
+            <div class="cursor-pointer">
+                <div class="text-left pt-4 pl-2 text-[15px] text-slate-500 ">Connections</div>
+                <div class="text-left pb-4 pl-2 text-[15px]">Connect with alumni</div>
+            </div>
+            <hr>
+            <div class="cursor-pointer">
+                <div class="text-left pt-4 pl-2 text-[10px] text-slate-500">Unlock 4x more profile visits</div>
+                <div class="text-left pb-4 pl-2 text-[13px] text-black flex">
+                    <div class="h-4 w-4 mt-1 bg-amber-500 mr-1"></div>Try Premium for ₹0
+                </div>
+            </div>
+
+
+            <hr>
+            <div class="text-left pt-4 p-2 cursor-pointer text-[15px] text-black"><i class="fa fa-bookmark mr-3"></i>My
+                items</div>
+        </div>
+
+
+        <div class="bg-transparent max-w-full h-auto rounded-4xl m-2">
+            <div class="bg-white h-auto rounded-md border-gray-400">
+                <div class="p-5 text-left">
+                    <div class="flex">
+                        <img class="w-10 cursor-pointer h-10 inline-block mr-5 rounded-full"
+                            src="https://media.licdn.com/dms/image/D5635AQFQcZK0lmlNZg/profile-framedphoto-shrink_100_100/0/1690020320562?e=1703527200&v=beta&t=smcKngtMo5hcV5Q0L3J4xfx3QuCy33BvptAw0K_GT9Q"
+                            alt="">
+                        <div
+                            class="w-full h-9 inline-block rounded-xl text-slate-400 border-slate-500 border text-left pl-2">
+                            Start Post
+                        </div>
+                    </div>
+                    <div class="m-auto mt-1 mx-5 text-lg text-center place-content-center">
+                        <div class="mr-10 w-32 cursor-pointer   inline-block p-2 hover:bg-slate-200 rounded-md"><i
+                                class="fa fa-image mr-2  text-blue-600"></i><span>Media</span></div>
+                        <div class="mr-10 w-32 cursor-pointer   inline-block p-2 hover:bg-slate-200 rounded-md"><i
+                                class="fa fa-calendar mr-2  text-orange-500"></i><span>Event</span></div>
+                        <div class=" w-36  cursor-pointer p-2 inline-block hover:bg-slate-200 rounded-md"><i
+                                class="fa fa-newspaper-o mr-2 text-red-600"></i><span>Weite artical</span></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="bg-white h-auto rounded-md mt-2 border-gray-400">
+                <div class="p-3 text-left">
+                    <div class="h-13 inline-block">
+                        <img class="h-12 w-12 rounded-full "
+                            src="https://media.licdn.com/dms/image/D4D03AQH8CXRHAKQd6Q/profile-displayphoto-shrink_800_800/0/1693777638244?e=1708560000&v=beta&t=XgZ2yIjyqN_b1KH4ABeQSBlSAsfEw68dVVj9SceAvOE"
+                            alt="">
+                    </div>
+
+                    <div class="h-13 cursor-pointer inline-block ml-2">
+                        <div class="text-xl font-bold">Hitesh Choudhary <span
+                                class="font-mono text-[12px] text-gray-500">•3rd+</span></div>
+                        <div class="font-semibold text-[12px] text-gray-700">Stepped into 39 countries and counting 😁
+                        </div>
+                    </div>
+
+                    <div class="h-13 hover:bg-blue-200 inline-block text-right ml-48 rounded-md p-1">
+                        <div class="text-sm text-blue-600 cursor-pointer font-bold">Follow</div>
+                    </div>
+                    <p class="">Tailwind CSS Learn With Hitesh</p>
+                    <img class="" src="img/Hitesh.png" alt="">
+
+                    <hr class="mt-2">
+
+                    <div class="flex max-w-screen-lg text-lg p-2">
+                        <div class="w-[25%] hover:bg-slate-200 m-1 p-2 rounded-md text-center"><i
+                                class="fa fa-thumbs-up"></i><span class="">Like</span></div>
+                        <div class="w-[25%] hover:bg-slate-200 m-1 p-2 rounded-md text-center"><i
+                                class="fa fa-comment-o"></i><span class="">Comment</span></div>
+                        <div class="w-[25%] hover:bg-slate-200 m-1 p-2 rounded-md text-center"><i
+                                class="fa fa-retweet"></i><span class="">Repost</span></div>
+                        <div class="w-[25%] hover:bg-slate-200 m-1 p-2 rounded-md text-center"><i
+                                class="fa fa-share"></i><span class="">Share</span></div>
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="bg-white w-auto h-72 text-gray-600 font-bold text-left text-sm rounded-xl p-2 m-2">
+
+            <div class="felx text-left">
+                <p class="inline-block mb-2"> LinkedIn News </p>
+                <p
+                    class="inline-block ml-32 h-4 w-4 cursor-pointer text-[8px] text-white text-center rounded-sm bg-black">
+                    i</p>
+            </div>
+
+            <li class="cursor-pointer mt-2">Defying trends in frontline workforce <br><span
+                    class="text-gray-500 text-[12px] ml-4">Top news • 187 readers</span></li>
+            <li class="cursor-pointer mt-2">Boardrooms brim with ex-bureaucrats <br><span
+                    class="text-gray-500 text-[12px] ml-4"> 1d ago</span></li>
+            <li class="cursor-pointer mt-2">Hospitals on expansion mode <br><span
+                    class="text-gray-500 text-[12px] ml-4">16h ago</span></li>
+            <li class="cursor-pointer mt-2">Office space demand set to surge <br><span
+                    class="text-gray-500 text-[12px] ml-4"> 1d ago • 268 readers</span></li>
+            <li class="cursor-pointer mt-2">Stars power Indian startups <br><span
+                    class="text-gray-500 text-[12px] ml-4">11h ago</span></li>
+
+
+
+        </div>
+
+    </header>
+
+
+
+
+</body>
+
+</html
